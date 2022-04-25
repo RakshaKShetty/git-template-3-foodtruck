@@ -1,0 +1,191 @@
+{
+  "unpublishedPage": {
+    "name": "Checkout",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1118,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 540,
+          "containerStyle": "none",
+          "snapRows": 129,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 57,
+          "minHeight": 550,
+          "parentColumnSpace": 1,
+          "dynamicTriggerPathList": [],
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "multiRowSelection": false,
+              "widgetName": "Table1",
+              "defaultPageSize": 0,
+              "columnOrder": [
+                "Id",
+                "DishName"
+              ],
+              "isVisibleDownload": false,
+              "dynamicPropertyPathList": [],
+              "displayName": "Table",
+              "iconSVG": "/static/media/icon.59df0390.svg",
+              "topRow": 5,
+              "bottomRow": 36,
+              "parentRowSpace": 10,
+              "isSortable": true,
+              "type": "TABLE_WIDGET",
+              "defaultSelectedRow": "0",
+              "hideCard": false,
+              "parentColumnSpace": 16.1828125,
+              "dynamicTriggerPathList": [],
+              "dynamicBindingPathList": [
+                {
+                  "key": "tableData"
+                },
+                {
+                  "key": "primaryColumns.DishName.computedValue"
+                },
+                {
+                  "key": "primaryColumns.Id.computedValue"
+                }
+              ],
+              "leftColumn": 1,
+              "primaryColumns": {
+                "Id": {
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Id))}}",
+                  "textSize": "PARAGRAPH",
+                  "index": 0,
+                  "isVisible": true,
+                  "label": "Id",
+                  "columnType": "text",
+                  "horizontalAlignment": "LEFT",
+                  "width": 150,
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "id": "Id",
+                  "isDisabled": false,
+                  "verticalAlignment": "CENTER"
+                },
+                "DishName": {
+                  "isCellVisible": true,
+                  "isDerived": false,
+                  "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.DishName))}}",
+                  "textSize": "PARAGRAPH",
+                  "index": 0,
+                  "isVisible": true,
+                  "label": "DishName",
+                  "columnType": "text",
+                  "horizontalAlignment": "LEFT",
+                  "width": 150,
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "id": "DishName",
+                  "isDisabled": false,
+                  "verticalAlignment": "CENTER"
+                }
+              },
+              "delimiter": ",",
+              "key": "dc0eoioaus",
+              "derivedColumns": {},
+              "rightColumn": 63,
+              "textSize": "PARAGRAPH",
+              "widgetId": "mg5sahcdjt",
+              "isVisibleFilters": false,
+              "tableData": "{{cart_items.data}}",
+              "isVisible": true,
+              "label": "Data",
+              "searchKey": "",
+              "version": 3,
+              "totalRecordsCount": 0,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "horizontalAlignment": "LEFT",
+              "isVisibleSearch": false,
+              "isVisiblePagination": true,
+              "verticalAlignment": "CENTER",
+              "columnSizeMap": {
+                "TypeName": 438,
+                "task": 377,
+                "step": 223,
+                "PreferenceType": 309,
+                "status": 75,
+                "DishName": 251,
+                "Id": 256
+              }
+            },
+            {
+              "widgetName": "Button1",
+              "onClick": "{{place_order.run(() => navigateTo('Orders','null'), () => {})}}",
+              "buttonColor": "#2E3D49",
+              "displayName": "Button",
+              "iconSVG": "/static/media/icon.c8f649ed.svg",
+              "topRow": 41,
+              "bottomRow": 45,
+              "tooltip": "",
+              "parentRowSpace": 10,
+              "type": "BUTTON_WIDGET",
+              "hideCard": false,
+              "parentColumnSpace": 16.1828125,
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onClick"
+                }
+              ],
+              "leftColumn": 47,
+              "dynamicBindingPathList": [],
+              "text": "Place Order",
+              "isDisabled": false,
+              "key": "kfnulkycrz",
+              "rightColumn": 63,
+              "isDefaultClickDisabled": true,
+              "widgetId": "ndb5ihp2ob",
+              "isVisible": true,
+              "version": 1,
+              "recaptchaType": "V3",
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "buttonVariant": "PRIMARY"
+            }
+          ]
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Checkout_cart_items",
+              "name": "cart_items",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "appsmith.user.username"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "validOnPageLoadActions": true,
+        "id": "Checkout",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "policies": [],
+  "gitSyncId": "6156dd27456fd90b8508d90e_2021-10-02T04:32:55.237340Z"
+}

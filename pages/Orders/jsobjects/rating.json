@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "rating",
+    "pageId": "Orders",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\texec: () => {\n\t\t\n\t\trate_dish.run(() => { ordered_items.run() , closeModal('Modal1') }, () => {})\n\t\n\t}\n}\n\n\n",
+    "variables": []
+  },
+  "id": "Orders_rating",
+  "deleted": false,
+  "gitSyncId": "6266c58dcb603a05f9080092_6266cae9cb603a05f90800d5"
+}
