@@ -534,6 +534,25 @@
             }
           ]
         ],
+        "widgetNames": [
+          "Button1",
+          "Canvas1",
+          "Container1",
+          "Input1",
+          "Input2",
+          "Input3",
+          "MainContainer",
+          "MultiSelect1",
+          "Select1",
+          "Select2",
+          "Text1",
+          "Text2",
+          "Text3",
+          "Text4",
+          "Text5",
+          "Text6",
+          "Text7"
+        ],
         "validOnPageLoadActions": true,
         "id": "Dish",
         "deleted": false,
