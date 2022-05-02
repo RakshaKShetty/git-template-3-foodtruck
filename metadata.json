@@ -8,7 +8,9 @@
     "Ingredients",
     "Summary",
     "Dish",
+
     "Menu"
+
   ],
   "publishedPageOrder": [
     "Orders",
@@ -17,7 +19,9 @@
     "Ingredients",
     "Summary",
     "Dish",
+
     "Menu"
+
   ],
   "publishedDefaultPageName": "Menu",
   "unpublishedDefaultPageName": "Menu",
@@ -107,6 +111,10 @@
       "publishedUserSetOnLoad": false
     },
     "Orders_rating.exec": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Page1_Get_dish": {
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
     },
