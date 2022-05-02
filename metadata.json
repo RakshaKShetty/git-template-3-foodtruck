@@ -1,6 +1,24 @@
 {
   "clientSchemaVersion": 1,
   "serverSchemaVersion": 4,
+  "pageOrder": [
+    "Orders",
+    "Checkout",
+    "Welcome Page",
+    "Ingredients",
+    "Summary",
+    "Dish",
+    "Menu"
+  ],
+  "publishedPageOrder": [
+    "Orders",
+    "Checkout",
+    "Welcome Page",
+    "Ingredients",
+    "Summary",
+    "Dish",
+    "Menu"
+  ],
   "publishedDefaultPageName": "Menu",
   "unpublishedDefaultPageName": "Menu",
   "invisibleActionFields": {
