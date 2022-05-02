@@ -2,26 +2,24 @@
   "clientSchemaVersion": 1,
   "serverSchemaVersion": 4,
   "pageOrder": [
+    "Page1",
     "Orders",
     "Checkout",
     "Welcome Page",
     "Ingredients",
     "Summary",
     "Dish",
-
     "Menu"
-
   ],
   "publishedPageOrder": [
+    "Page1",
     "Orders",
     "Checkout",
     "Welcome Page",
     "Ingredients",
     "Summary",
     "Dish",
-
     "Menu"
-
   ],
   "publishedDefaultPageName": "Menu",
   "unpublishedDefaultPageName": "Menu",
@@ -47,10 +45,6 @@
       "publishedUserSetOnLoad": false
     },
     "Dish_Select_Ingredient": {
-      "unpublishedUserSetOnLoad": false,
-      "publishedUserSetOnLoad": false
-    },
-    "Dish_addingnewingredient.run": {
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
     },
