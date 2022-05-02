@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "run",
-    "fullyQualifiedName": "addingnewingredient.run",
+    "name": "exec",
+    "fullyQualifiedName": "getmenuCopy.exec",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,13 +13,13 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Dish",
-    "collectionId": "Dish_addingnewingredient",
+    "pageId": "Menu",
+    "collectionId": "Menu_getmenuCopy",
     "actionConfiguration": {
-      "timeoutInMillisecond": 0,
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {\n\t\tinsert_dish.run(\n(data) => {\nstoreValue(\"newDishId\", data[0]['id']);\nInsert_Dish_Details.run();\n\nInsert_Ingredients.run();\nshowAlert('Added Dish successfully','success')\n\n}\n)\n\t}",
+      "body": "() => {\n\t\tget_menu.run()\n\t\t\n\t}",
       "jsArguments": [],
       "isAsync": true
     },
@@ -33,16 +33,14 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "() => {\n\t\tinsert_dish.run(\n(data) => {\nstoreValue(\"newDishId\", data[0]['id']);\nInsert_Dish_Details.run();\n\nInsert_Ingredients.run();\nshowAlert('Added Dish successfully','success')\n\n}\n)\n\t}"
+      "() => {\n\t\tget_menu.run()\n\t\t\n\t}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Dish_addingnewingredient.run",
+  "id": "Menu_getmenuCopy.exec",
   "deleted": false,
-
-  "gitSyncId": "6266d1a2cb603a05f90800e5_6267784dcb603a05f9080425"
-
+  "gitSyncId": "6266d1a2cb603a05f90800e5_62677cd6cb603a05f9080452"
 }

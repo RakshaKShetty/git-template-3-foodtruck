@@ -8,8 +8,9 @@
     "Ingredients",
     "Summary",
     "Dish",
-    "Menu",
-    "Page1"
+
+    "Menu"
+
   ],
   "publishedPageOrder": [
     "Orders",
@@ -18,8 +19,9 @@
     "Ingredients",
     "Summary",
     "Dish",
-    "Menu",
-    "Page1"
+
+    "Menu"
+
   ],
   "publishedDefaultPageName": "Menu",
   "unpublishedDefaultPageName": "Menu",
@@ -89,6 +91,10 @@
       "publishedUserSetOnLoad": false
     },
     "Menu_getmenu.exec": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Menu_getmenuCopy.exec": {
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
     },

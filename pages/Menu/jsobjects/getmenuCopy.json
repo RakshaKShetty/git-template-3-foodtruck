@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "getmenuCopy",
+    "pageId": "Menu",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\texec: () => {\n\t\tget_menu.run()\n\t\t\n\t}\n}",
+    "variables": []
+  },
+  "id": "Menu_getmenuCopy",
+  "deleted": false,
+  "gitSyncId": "6266d1a2cb603a05f90800e5_62677cd6cb603a05f9080454"
+}
