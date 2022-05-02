@@ -1008,13 +1008,11 @@
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
-                "Type.selectedOptionValue",
-                "Preference.selectedOptionValue"
+                "Preference.selectedOptionValue",
+                "Type.selectedOptionValue"
               ],
               "timeoutInMillisecond": 10000
-            }
-          ],
-          [
+            },
             {
               "id": "Menu_total_cart_items",
               "name": "total_cart_items",

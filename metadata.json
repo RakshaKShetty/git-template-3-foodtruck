@@ -1,6 +1,26 @@
 {
   "clientSchemaVersion": 1,
   "serverSchemaVersion": 4,
+  "pageOrder": [
+    "Orders",
+    "Checkout",
+    "Welcome Page",
+    "Ingredients",
+    "Summary",
+    "Dish",
+    "Menu",
+    "Page1"
+  ],
+  "publishedPageOrder": [
+    "Orders",
+    "Checkout",
+    "Welcome Page",
+    "Ingredients",
+    "Summary",
+    "Dish",
+    "Menu",
+    "Page1"
+  ],
   "publishedDefaultPageName": "Menu",
   "unpublishedDefaultPageName": "Menu",
   "invisibleActionFields": {
@@ -25,6 +45,10 @@
       "publishedUserSetOnLoad": false
     },
     "Dish_Select_Ingredient": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Dish_addingnewingredient.run": {
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
     },
@@ -81,6 +105,10 @@
       "publishedUserSetOnLoad": false
     },
     "Orders_rating.exec": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Page1_Get_dish": {
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
     },
