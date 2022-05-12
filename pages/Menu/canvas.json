@@ -1012,7 +1012,9 @@
                 "Type.selectedOptionValue"
               ],
               "timeoutInMillisecond": 10000
-            },
+            }
+          ],
+          [
             {
               "id": "Menu_total_cart_items",
               "name": "total_cart_items",
