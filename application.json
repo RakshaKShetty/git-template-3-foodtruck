@@ -1,4 +1,38 @@
 {
+  "pages": [
+    {
+      "id": "Page1",
+      "isDefault": false
+    },
+    {
+      "id": "Orders",
+      "isDefault": false
+    },
+    {
+      "id": "Checkout",
+      "isDefault": false
+    },
+    {
+      "id": "Welcome Page",
+      "isDefault": false
+    },
+    {
+      "id": "Ingredients",
+      "isDefault": false
+    },
+    {
+      "id": "Summary",
+      "isDefault": false
+    },
+    {
+      "id": "Dish",
+      "isDefault": false
+    },
+    {
+      "id": "Menu",
+      "isDefault": true
+    }
+  ],
   "viewMode": false,
   "appIsExample": false,
   "unreadCommentThreads": 0,
@@ -6,9 +40,5 @@
   "icon": "laptop",
   "applicationVersion": 1,
   "isManualUpdate": false,
-  "createdAt": {
-    "seconds": 1650905506,
-    "nanos": 581000000
-  },
   "deleted": false
 }

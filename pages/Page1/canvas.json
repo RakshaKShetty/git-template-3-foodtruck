@@ -135,10 +135,6 @@
             }
           ]
         ],
-        "widgetNames": [
-          "MainContainer",
-          "Table1"
-        ],
         "validOnPageLoadActions": true,
         "id": "Page1",
         "deleted": false,
@@ -150,6 +146,5 @@
     "policies": []
   },
   "deleted": false,
-  "policies": [],
   "gitSyncId": "626fb45868e7704d801f9683_626fb45e68e7704d801f96ac"
 }

@@ -307,18 +307,6 @@
           ]
         },
         "layoutOnLoadActions": [],
-        "widgetNames": [
-          "Canvas1",
-          "Container1",
-          "Image1",
-          "MainContainer",
-          "Text1",
-          "Text2",
-          "Text3",
-          "Text4",
-          "Text5",
-          "Text6"
-        ],
         "validOnPageLoadActions": true,
         "id": "Welcome Page",
         "deleted": false,
@@ -331,6 +319,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "policies": [],
   "gitSyncId": "626771c2cb603a05f9080377_626771f9cb603a05f90803a1"
 }
