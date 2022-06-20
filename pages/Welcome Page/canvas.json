@@ -19,17 +19,22 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 57,
+          "version": 59,
           "minHeight": 720,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0,
           "children": [
             {
-              "boxShadow": "NONE",
+              "boxShadow": "none",
               "widgetName": "Container1",
               "borderColor": "transparent",
               "isCanvas": true,
+              "dynamicPropertyPathList": [
+                {
+                  "key": "borderRadius"
+                }
+              ],
               "displayName": "Container",
               "iconSVG": "/static/media/icon.1977dca3.svg",
               "topRow": 11,
@@ -42,29 +47,27 @@
               "leftColumn": 6,
               "children": [
                 {
+                  "boxShadow": "none",
                   "widgetName": "Canvas1",
-                  "rightColumn": 357.75,
-                  "detachFromLayout": true,
                   "displayName": "Canvas",
-                  "widgetId": "pxa75sgf7b",
-                  "containerStyle": "none",
                   "topRow": 0,
                   "bottomRow": 390,
                   "parentRowSpace": 1,
-                  "isVisible": true,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
-                  "version": 1,
                   "hideCard": true,
-                  "parentId": "xt81zfk98h",
                   "minHeight": 400,
-                  "renderMode": "CANVAS",
-                  "isLoading": false,
                   "parentColumnSpace": 1,
                   "leftColumn": 0,
                   "children": [
                     {
+                      "boxShadow": "none",
                       "widgetName": "Text1",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "fontSize"
+                        }
+                      ],
                       "displayName": "Text",
                       "iconSVG": "/static/media/icon.97c59b52.svg",
                       "topRow": 2,
@@ -76,12 +79,14 @@
                       "overflow": "NONE",
                       "parentColumnSpace": 11.56591796875,
                       "dynamicTriggerPathList": [],
+                      "fontFamily": "System Default",
                       "leftColumn": 1,
                       "dynamicBindingPathList": [],
                       "shouldTruncate": false,
                       "truncateButtonColor": "#FFC13D",
                       "text": "Food Menu",
                       "key": "w2by21ofc2",
+                      "labelTextSize": "0.875rem",
                       "rightColumn": 17,
                       "textAlign": "LEFT",
                       "widgetId": "0onslwd35k",
@@ -92,9 +97,11 @@
                       "parentId": "pxa75sgf7b",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "fontSize": "HEADING1"
+                      "borderRadius": "0px",
+                      "fontSize": "1.5rem"
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "Text2",
                       "displayName": "Text",
                       "iconSVG": "/static/media/icon.97c59b52.svg",
@@ -107,12 +114,14 @@
                       "overflow": "NONE",
                       "parentColumnSpace": 11.56591796875,
                       "dynamicTriggerPathList": [],
+                      "fontFamily": "System Default",
                       "leftColumn": 1,
                       "dynamicBindingPathList": [],
                       "shouldTruncate": false,
                       "truncateButtonColor": "#FFC13D",
                       "text": "Welcome",
                       "key": "w2by21ofc2",
+                      "labelTextSize": "0.875rem",
                       "rightColumn": 17,
                       "textAlign": "LEFT",
                       "widgetId": "2549g7f8lp",
@@ -123,9 +132,11 @@
                       "parentId": "pxa75sgf7b",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "fontSize": "PARAGRAPH"
+                      "borderRadius": "0px",
+                      "fontSize": "0.875rem"
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "Text3",
                       "displayName": "Text",
                       "iconSVG": "/static/media/icon.97c59b52.svg",
@@ -138,12 +149,14 @@
                       "overflow": "NONE",
                       "parentColumnSpace": 11.56591796875,
                       "dynamicTriggerPathList": [],
+                      "fontFamily": "System Default",
                       "leftColumn": 1,
                       "dynamicBindingPathList": [],
                       "shouldTruncate": false,
                       "truncateButtonColor": "#FFC13D",
                       "text": "Date",
                       "key": "w2by21ofc2",
+                      "labelTextSize": "0.875rem",
                       "rightColumn": 17,
                       "textAlign": "LEFT",
                       "widgetId": "7qwr7wzwul",
@@ -154,9 +167,11 @@
                       "parentId": "pxa75sgf7b",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "fontSize": "PARAGRAPH"
+                      "borderRadius": "0px",
+                      "fontSize": "0.875rem"
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "Text4",
                       "displayName": "Text",
                       "iconSVG": "/static/media/icon.97c59b52.svg",
@@ -169,6 +184,7 @@
                       "overflow": "NONE",
                       "parentColumnSpace": 11.56591796875,
                       "dynamicTriggerPathList": [],
+                      "fontFamily": "System Default",
                       "leftColumn": 19,
                       "dynamicBindingPathList": [
                         {
@@ -179,6 +195,7 @@
                       "truncateButtonColor": "#FFC13D",
                       "text": "{{appsmith.user.name}}",
                       "key": "w2by21ofc2",
+                      "labelTextSize": "0.875rem",
                       "rightColumn": 35,
                       "textAlign": "LEFT",
                       "widgetId": "4cdilcicbp",
@@ -189,9 +206,11 @@
                       "parentId": "pxa75sgf7b",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "fontSize": "PARAGRAPH"
+                      "borderRadius": "0px",
+                      "fontSize": "0.875rem"
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "Text5",
                       "displayName": "Text",
                       "iconSVG": "/static/media/icon.97c59b52.svg",
@@ -204,6 +223,7 @@
                       "overflow": "NONE",
                       "parentColumnSpace": 11.56591796875,
                       "dynamicTriggerPathList": [],
+                      "fontFamily": "System Default",
                       "leftColumn": 19,
                       "dynamicBindingPathList": [
                         {
@@ -214,6 +234,7 @@
                       "truncateButtonColor": "#FFC13D",
                       "text": "{{appsmith.user.toLocaleString()}}",
                       "key": "w2by21ofc2",
+                      "labelTextSize": "0.875rem",
                       "rightColumn": 35,
                       "textAlign": "LEFT",
                       "widgetId": "9bv4ub9ypx",
@@ -224,10 +245,17 @@
                       "parentId": "pxa75sgf7b",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "fontSize": "PARAGRAPH"
+                      "borderRadius": "0px",
+                      "fontSize": "0.875rem"
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "Text6",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "fontSize"
+                        }
+                      ],
                       "displayName": "Text",
                       "iconSVG": "/static/media/icon.97c59b52.svg",
                       "topRow": 24,
@@ -239,12 +267,14 @@
                       "overflow": "NONE",
                       "parentColumnSpace": 11.56591796875,
                       "dynamicTriggerPathList": [],
+                      "fontFamily": "System Default",
                       "leftColumn": 1,
                       "dynamicBindingPathList": [],
                       "shouldTruncate": false,
                       "truncateButtonColor": "#FFC13D",
                       "text": "Order Your Desired food from Menu",
                       "key": "w2by21ofc2",
+                      "labelTextSize": "0.875rem",
                       "rightColumn": 36,
                       "textAlign": "LEFT",
                       "widgetId": "4vpgtxjjvl",
@@ -255,9 +285,11 @@
                       "parentId": "pxa75sgf7b",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "fontSize": "HEADING1"
+                      "borderRadius": "0px",
+                      "fontSize": "1.5rem"
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "Image1",
                       "displayName": "Image",
                       "iconSVG": "/static/media/icon.52d8fb96.svg",
@@ -274,6 +306,7 @@
                       "dynamicBindingPathList": [],
                       "defaultImage": "https://media.istockphoto.com/photos/food-backgrounds-table-filled-with-large-variety-of-food-picture-id1155240408?k=20&m=1155240408&s=612x612&w=0&h=Zvr3TwVQ-wlfBnvGrgJCtv-_P_LUcIK301rCygnirbk=",
                       "key": "g5brghgj1v",
+                      "labelTextSize": "0.875rem",
                       "image": "",
                       "rightColumn": 63,
                       "objectFit": "cover",
@@ -285,14 +318,27 @@
                       "isLoading": false,
                       "maxZoomLevel": 1,
                       "enableDownload": false,
+                      "borderRadius": "0px",
                       "enableRotation": false
                     }
                   ],
-                  "key": "vk4mj69qxm"
+                  "key": "vk4mj69qxm",
+                  "labelTextSize": "0.875rem",
+                  "rightColumn": 357.75,
+                  "detachFromLayout": true,
+                  "widgetId": "pxa75sgf7b",
+                  "containerStyle": "none",
+                  "isVisible": true,
+                  "version": 1,
+                  "parentId": "xt81zfk98h",
+                  "renderMode": "CANVAS",
+                  "isLoading": false,
+                  "borderRadius": "0px"
                 }
               ],
               "borderWidth": "0",
               "key": "z9o7tfpqso",
+              "labelTextSize": "0.875rem",
               "backgroundColor": "#FFFFFF",
               "rightColumn": 57,
               "widgetId": "xt81zfk98h",
@@ -302,7 +348,7 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "borderRadius": "0"
+              "borderRadius": "0px"
             }
           ]
         },

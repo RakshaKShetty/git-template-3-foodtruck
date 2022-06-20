@@ -18,17 +18,22 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 57,
+          "version": 59,
           "minHeight": 550,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0,
           "children": [
             {
-              "boxShadow": "NONE",
+              "boxShadow": "none",
               "widgetName": "Container1",
               "borderColor": "transparent",
               "isCanvas": true,
+              "dynamicPropertyPathList": [
+                {
+                  "key": "borderRadius"
+                }
+              ],
               "displayName": "Container",
               "iconSVG": "/static/media/icon.5c440258.svg",
               "topRow": 0,
@@ -42,28 +47,21 @@
               "dynamicBindingPathList": [],
               "children": [
                 {
+                  "boxShadow": "none",
                   "widgetName": "Canvas1",
-                  "rightColumn": 388.38750000000005,
-                  "detachFromLayout": true,
                   "displayName": "Canvas",
-                  "widgetId": "plfm2qr6vc",
-                  "containerStyle": "none",
                   "topRow": 0,
                   "bottomRow": 390,
                   "parentRowSpace": 1,
-                  "isVisible": true,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
-                  "version": 1,
                   "hideCard": true,
-                  "parentId": "3si75cyaku",
                   "minHeight": 400,
-                  "renderMode": "CANVAS",
-                  "isLoading": false,
                   "parentColumnSpace": 1,
                   "leftColumn": 0,
                   "children": [
                     {
+                      "boxShadow": "none",
                       "widgetName": "Image1",
                       "displayName": "Image",
                       "iconSVG": "/static/media/icon.33f70f3e.svg",
@@ -79,6 +77,7 @@
                       "dynamicBindingPathList": [],
                       "defaultImage": "https://assets.appsmith.com/widgets/default.png",
                       "key": "31rdm60vgh",
+                      "labelTextSize": "0.875rem",
                       "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_520,h_520/rng/md/carousel/production/jvoo9zlngwfdjxyf1kdi",
                       "rightColumn": 15,
                       "objectFit": "cover",
@@ -90,9 +89,11 @@
                       "isLoading": false,
                       "maxZoomLevel": 1,
                       "enableDownload": false,
+                      "borderRadius": "0px",
                       "enableRotation": false
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "Image2",
                       "displayName": "Image",
                       "iconSVG": "/static/media/icon.33f70f3e.svg",
@@ -108,6 +109,7 @@
                       "dynamicBindingPathList": [],
                       "defaultImage": "https://assets.appsmith.com/widgets/default.png",
                       "key": "31rdm60vgh",
+                      "labelTextSize": "0.875rem",
                       "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_520,h_520/rng/md/carousel/production/wxboffdntajqa9ss6et5",
                       "rightColumn": 32,
                       "objectFit": "cover",
@@ -119,9 +121,11 @@
                       "isLoading": false,
                       "maxZoomLevel": 1,
                       "enableDownload": false,
+                      "borderRadius": "0px",
                       "enableRotation": false
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "Image3",
                       "displayName": "Image",
                       "iconSVG": "/static/media/icon.33f70f3e.svg",
@@ -137,6 +141,7 @@
                       "dynamicBindingPathList": [],
                       "defaultImage": "https://assets.appsmith.com/widgets/default.png",
                       "key": "31rdm60vgh",
+                      "labelTextSize": "0.875rem",
                       "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_520,h_520/rng/md/carousel/production/j89t6t3offcu9effcc7h",
                       "rightColumn": 48,
                       "objectFit": "cover",
@@ -148,9 +153,11 @@
                       "isLoading": false,
                       "maxZoomLevel": 1,
                       "enableDownload": false,
+                      "borderRadius": "0px",
                       "enableRotation": false
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "Image4",
                       "displayName": "Image",
                       "iconSVG": "/static/media/icon.33f70f3e.svg",
@@ -166,6 +173,7 @@
                       "dynamicBindingPathList": [],
                       "defaultImage": "https://assets.appsmith.com/widgets/default.png",
                       "key": "31rdm60vgh",
+                      "labelTextSize": "0.875rem",
                       "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_520,h_520/rng/md/carousel/production/ztpd5q9awnmmnefczn5x",
                       "rightColumn": 63,
                       "objectFit": "cover",
@@ -177,14 +185,27 @@
                       "isLoading": false,
                       "maxZoomLevel": 1,
                       "enableDownload": false,
+                      "borderRadius": "0px",
                       "enableRotation": false
                     }
                   ],
-                  "key": "cp06ep0hoo"
+                  "key": "cp06ep0hoo",
+                  "labelTextSize": "0.875rem",
+                  "rightColumn": 388.38750000000005,
+                  "detachFromLayout": true,
+                  "widgetId": "plfm2qr6vc",
+                  "containerStyle": "none",
+                  "isVisible": true,
+                  "version": 1,
+                  "parentId": "3si75cyaku",
+                  "renderMode": "CANVAS",
+                  "isLoading": false,
+                  "borderRadius": "0px"
                 }
               ],
               "borderWidth": "0",
               "key": "ypj17swfn3",
+              "labelTextSize": "0.875rem",
               "backgroundColor": "#282c3f",
               "rightColumn": 64,
               "widgetId": "3si75cyaku",
@@ -194,9 +215,10 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "borderRadius": "0"
+              "borderRadius": "0px"
             },
             {
+              "boxShadow": "none",
               "widgetName": "Text1",
               "displayName": "Text",
               "iconSVG": "/static/media/icon.dbad9587.svg",
@@ -208,10 +230,12 @@
               "parentColumnSpace": 16.1828125,
               "dynamicTriggerPathList": [],
               "overflow": "NONE",
+              "fontFamily": "System Default",
               "leftColumn": 0,
               "dynamicBindingPathList": [],
               "text": "Preference",
               "key": "zr7ka5kt8b",
+              "labelTextSize": "0.875rem",
               "rightColumn": 9,
               "textAlign": "LEFT",
               "widgetId": "vbhz9qz1p7",
@@ -222,13 +246,19 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "fontSize": "PARAGRAPH"
+              "borderRadius": "0px",
+              "fontSize": "0.875rem"
             },
             {
-              "boxShadow": "NONE",
+              "boxShadow": "none",
               "widgetName": "Container2",
               "borderColor": "transparent",
               "isCanvas": true,
+              "dynamicPropertyPathList": [
+                {
+                  "key": "borderRadius"
+                }
+              ],
               "displayName": "Container",
               "iconSVG": "/static/media/icon.5c440258.svg",
               "topRow": 43,
@@ -240,29 +270,27 @@
               "leftColumn": 44,
               "children": [
                 {
+                  "boxShadow": "none",
                   "widgetName": "Canvas4",
-                  "rightColumn": 388.38750000000005,
-                  "detachFromLayout": true,
                   "displayName": "Canvas",
-                  "widgetId": "bf8rmc6p3z",
-                  "containerStyle": "none",
                   "topRow": 0,
                   "bottomRow": 420,
                   "parentRowSpace": 1,
-                  "isVisible": true,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
-                  "version": 1,
                   "hideCard": true,
-                  "parentId": "cp6b0orgvq",
                   "minHeight": 400,
-                  "renderMode": "CANVAS",
-                  "isLoading": false,
                   "parentColumnSpace": 1,
                   "leftColumn": 0,
                   "children": [
                     {
+                      "boxShadow": "none",
                       "widgetName": "Text2",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "fontSize"
+                        }
+                      ],
                       "displayName": "Text",
                       "iconSVG": "/static/media/icon.dbad9587.svg",
                       "topRow": 0,
@@ -273,10 +301,12 @@
                       "parentColumnSpace": 16.1828125,
                       "dynamicTriggerPathList": [],
                       "overflow": "NONE",
+                      "fontFamily": "System Default",
                       "leftColumn": 0,
                       "dynamicBindingPathList": [],
                       "text": "Cart",
                       "key": "zr7ka5kt8b",
+                      "labelTextSize": "0.875rem",
                       "rightColumn": 62,
                       "textAlign": "LEFT",
                       "widgetId": "0agvnbr1xh",
@@ -287,9 +317,11 @@
                       "parentId": "bf8rmc6p3z",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "fontSize": "HEADING1"
+                      "borderRadius": "0px",
+                      "fontSize": "1.5rem"
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "Text3",
                       "displayName": "Text",
                       "iconSVG": "/static/media/icon.dbad9587.svg",
@@ -301,6 +333,7 @@
                       "parentColumnSpace": 4.74462890625,
                       "dynamicTriggerPathList": [],
                       "overflow": "NONE",
+                      "fontFamily": "System Default",
                       "leftColumn": 0,
                       "dynamicBindingPathList": [
                         {
@@ -309,6 +342,7 @@
                       ],
                       "text": "{{total_cart_items.data[0]['count(*)']}} ITEMS",
                       "key": "zr7ka5kt8b",
+                      "labelTextSize": "0.875rem",
                       "rightColumn": 36,
                       "textAlign": "LEFT",
                       "widgetId": "yh281ybty4",
@@ -319,9 +353,11 @@
                       "parentId": "bf8rmc6p3z",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "fontSize": "PARAGRAPH"
+                      "borderRadius": "0px",
+                      "fontSize": "0.875rem"
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "Button1",
                       "onClick": "{{navigateTo('Checkout','a')}}",
                       "buttonColor": "#03B365",
@@ -343,6 +379,7 @@
                       "text": "Checkout",
                       "isDisabled": false,
                       "key": "xmz3hr1ala",
+                      "labelTextSize": "0.875rem",
                       "rightColumn": 63,
                       "isDefaultClickDisabled": true,
                       "widgetId": "ibtsugooql",
@@ -352,14 +389,27 @@
                       "parentId": "bf8rmc6p3z",
                       "renderMode": "CANVAS",
                       "isLoading": false,
+                      "borderRadius": "0px",
                       "buttonVariant": "PRIMARY"
                     }
                   ],
-                  "key": "cp06ep0hoo"
+                  "key": "cp06ep0hoo",
+                  "labelTextSize": "0.875rem",
+                  "rightColumn": 388.38750000000005,
+                  "detachFromLayout": true,
+                  "widgetId": "bf8rmc6p3z",
+                  "containerStyle": "none",
+                  "isVisible": true,
+                  "version": 1,
+                  "parentId": "cp6b0orgvq",
+                  "renderMode": "CANVAS",
+                  "isLoading": false,
+                  "borderRadius": "0px"
                 }
               ],
               "borderWidth": "0",
               "key": "ypj17swfn3",
+              "labelTextSize": "0.875rem",
               "backgroundColor": "#FFFFFF",
               "rightColumn": 64,
               "widgetId": "cp6b0orgvq",
@@ -369,9 +419,10 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "borderRadius": "0"
+              "borderRadius": "0px"
             },
             {
+              "boxShadow": "none",
               "widgetName": "Preference",
               "dynamicPropertyPathList": [],
               "displayName": "Radio Group",
@@ -403,6 +454,7 @@
               ],
               "isDisabled": false,
               "key": "jrp80trkdy",
+              "labelTextSize": "0.875rem",
               "isRequired": false,
               "rightColumn": 22,
               "widgetId": "uh7wt906dd",
@@ -412,6 +464,7 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
+              "borderRadius": "0px",
               "alignment": "left"
             },
             {
@@ -563,6 +616,7 @@
                   "key": "zr7ka5kt8b"
                 }
               },
+              "boxShadow": "none",
               "widgetName": "menu",
               "listData": "{{get_menu.data}}",
               "isCanvas": true,
@@ -593,12 +647,16 @@
                 },
                 {
                   "key": "listData"
+                },
+                {
+                  "key": "accentColor"
                 }
               ],
               "gridType": "vertical",
               "enhancements": true,
               "children": [
                 {
+                  "boxShadow": "none",
                   "widgetName": "Canvas6",
                   "displayName": "Canvas",
                   "topRow": 0,
@@ -615,11 +673,16 @@
                   "leftColumn": 0,
                   "children": [
                     {
-                      "boxShadow": "NONE",
+                      "boxShadow": "none",
                       "widgetName": "Container3",
                       "borderColor": "transparent",
                       "disallowCopy": true,
                       "isCanvas": true,
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
                       "displayName": "Container",
                       "iconSVG": "/static/media/icon.5c440258.svg",
                       "topRow": 0,
@@ -632,6 +695,8 @@
                       "leftColumn": 0,
                       "children": [
                         {
+                          "labelTextSize": "0.875rem",
+                          "boxShadow": "none",
                           "widgetName": "Canvas7",
                           "detachFromLayout": true,
                           "displayName": "Canvas",
@@ -650,8 +715,10 @@
                           "isLoading": false,
                           "parentColumnSpace": 1,
                           "leftColumn": 0,
+                          "borderRadius": "0px",
                           "children": [
                             {
+                              "boxShadow": "none",
                               "widgetName": "Image5",
                               "displayName": "Image",
                               "iconSVG": "/static/media/icon.33f70f3e.svg",
@@ -669,6 +736,7 @@
                               "leftColumn": 0,
                               "defaultImage": "https://assets.appsmith.com/widgets/default.png",
                               "key": "31rdm60vgh",
+                              "labelTextSize": "0.875rem",
                               "image": "{{currentItem.Image}}",
                               "rightColumn": 16,
                               "objectFit": "contain",
@@ -711,9 +779,11 @@
                               "isLoading": false,
                               "maxZoomLevel": 1,
                               "enableDownload": false,
+                              "borderRadius": "0px",
                               "enableRotation": false
                             },
                             {
+                              "boxShadow": "none",
                               "widgetName": "Text4",
                               "displayName": "Text",
                               "iconSVG": "/static/media/icon.dbad9587.svg",
@@ -723,6 +793,7 @@
                               "hideCard": false,
                               "dynamicTriggerPathList": [],
                               "overflow": "NONE",
+                              "fontFamily": "System Default",
                               "dynamicBindingPathList": [
                                 {
                                   "key": "text"
@@ -731,6 +802,7 @@
                               "leftColumn": 16,
                               "text": "{{currentItem.Name}}",
                               "key": "zr7ka5kt8b",
+                              "labelTextSize": "0.875rem",
                               "rightColumn": 28,
                               "textAlign": "LEFT",
                               "widgetId": "o72ss8hjw5",
@@ -771,10 +843,12 @@
                               "parentId": "be8kscjfij",
                               "renderMode": "CANVAS",
                               "isLoading": false,
-                              "fontSize": "PARAGRAPH",
+                              "borderRadius": "0px",
+                              "fontSize": "0.875rem",
                               "textStyle": "HEADING"
                             },
                             {
+                              "boxShadow": "none",
                               "widgetName": "Text5",
                               "displayName": "Text",
                               "iconSVG": "/static/media/icon.dbad9587.svg",
@@ -784,6 +858,7 @@
                               "hideCard": false,
                               "dynamicTriggerPathList": [],
                               "overflow": "NONE",
+                              "fontFamily": "System Default",
                               "dynamicBindingPathList": [
                                 {
                                   "key": "text"
@@ -792,6 +867,7 @@
                               "leftColumn": 16,
                               "text": "{{currentItem.Price}}",
                               "key": "zr7ka5kt8b",
+                              "labelTextSize": "0.875rem",
                               "rightColumn": 24,
                               "textAlign": "LEFT",
                               "widgetId": "b5elbp9u2q",
@@ -832,17 +908,21 @@
                               "parentId": "be8kscjfij",
                               "renderMode": "CANVAS",
                               "isLoading": false,
-                              "fontSize": "PARAGRAPH",
+                              "borderRadius": "0px",
+                              "fontSize": "0.875rem",
                               "textStyle": "BODY"
                             },
                             {
-                              "boxShadow": "NONE",
+                              "boxShadow": "none",
                               "widgetName": "IconButton1",
                               "onClick": "{{add_to_cart.run(() => { showAlert('Dish added to cart'); total_cart_items.run()}, () => {})}}",
                               "buttonColor": "#03B365",
                               "dynamicPropertyPathList": [
                                 {
                                   "key": "onClick"
+                                },
+                                {
+                                  "key": "borderRadius"
                                 }
                               ],
                               "displayName": "Icon Button",
@@ -862,6 +942,7 @@
                               "dynamicBindingPathList": [],
                               "isDisabled": false,
                               "key": "4f0v8hkw3o",
+                              "labelTextSize": "0.875rem",
                               "rightColumn": 60,
                               "iconName": "plus",
                               "widgetId": "g8grc8w85j",
@@ -898,7 +979,7 @@
                               "parentId": "be8kscjfij",
                               "renderMode": "CANVAS",
                               "isLoading": false,
-                              "borderRadius": "CIRCLE",
+                              "borderRadius": "9999px",
                               "buttonVariant": "PRIMARY"
                             }
                           ],
@@ -908,6 +989,7 @@
                       "borderWidth": "0",
                       "key": "ypj17swfn3",
                       "disablePropertyPane": true,
+                      "labelTextSize": "0.875rem",
                       "backgroundColor": "white",
                       "rightColumn": 64,
                       "widgetId": "9elgfen1q5",
@@ -917,10 +999,11 @@
                       "parentId": "d3ndalydr7",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "borderRadius": "0"
+                      "borderRadius": "0px"
                     }
                   ],
                   "key": "cp06ep0hoo",
+                  "labelTextSize": "0.875rem",
                   "rightColumn": 259.51640625000005,
                   "detachFromLayout": true,
                   "widgetId": "d3ndalydr7",
@@ -929,7 +1012,8 @@
                   "version": 1,
                   "parentId": "8asmu5f2uc",
                   "renderMode": "CANVAS",
-                  "isLoading": false
+                  "isLoading": false,
+                  "borderRadius": "0px"
                 }
               ],
               "privateWidgets": {
@@ -939,16 +1023,20 @@
                 "IconButton1": true
               },
               "key": "o90ql8cf7g",
+              "labelTextSize": "0.875rem",
               "backgroundColor": "transparent",
               "rightColumn": 43,
               "itemBackgroundColor": "#FFFFFF",
               "widgetId": "8asmu5f2uc",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
               "isVisible": true,
               "parentId": "0",
               "renderMode": "CANVAS",
-              "isLoading": false
+              "isLoading": false,
+              "borderRadius": "0px"
             },
             {
+              "boxShadow": "none",
               "widgetName": "Type",
               "isFilterable": false,
               "dynamicPropertyPathList": [],
@@ -972,20 +1060,26 @@
               "dynamicBindingPathList": [
                 {
                   "key": "options"
+                },
+                {
+                  "key": "accentColor"
                 }
               ],
               "options": "{{get_types.data}}",
               "isDisabled": false,
               "key": "mb5oelk6c9",
+              "labelTextSize": "0.875rem",
               "isRequired": false,
               "rightColumn": 53,
               "widgetId": "zniza6gs6r",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
               "isVisible": true,
               "label": "",
               "version": 1,
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
+              "borderRadius": "0px",
               "onOptionChange": "{{getmenu.exec()}}"
             }
           ]
@@ -1012,9 +1106,7 @@
                 "Type.selectedOptionValue"
               ],
               "timeoutInMillisecond": 10000
-            }
-          ],
-          [
+            },
             {
               "id": "Menu_total_cart_items",
               "name": "total_cart_items",

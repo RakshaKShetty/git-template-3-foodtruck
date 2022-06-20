@@ -18,7 +18,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 57,
+          "version": 59,
           "minHeight": 550,
           "parentColumnSpace": 1,
           "dynamicTriggerPathList": [],
@@ -27,6 +27,7 @@
           "children": [
             {
               "multiRowSelection": false,
+              "boxShadow": "none",
               "widgetName": "Table1",
               "defaultPageSize": 0,
               "columnOrder": [
@@ -55,6 +56,9 @@
                 },
                 {
                   "key": "primaryColumns.Id.computedValue"
+                },
+                {
+                  "key": "accentColor"
                 }
               ],
               "leftColumn": 1,
@@ -63,7 +67,7 @@
                   "isCellVisible": true,
                   "isDerived": false,
                   "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.Id))}}",
-                  "textSize": "PARAGRAPH",
+                  "textSize": "0.875rem",
                   "index": 0,
                   "isVisible": true,
                   "label": "Id",
@@ -74,13 +78,15 @@
                   "enableSort": true,
                   "id": "Id",
                   "isDisabled": false,
-                  "verticalAlignment": "CENTER"
+                  "verticalAlignment": "CENTER",
+                  "borderRadius": "0px",
+                  "boxShadow": "none"
                 },
                 "DishName": {
                   "isCellVisible": true,
                   "isDerived": false,
                   "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.DishName))}}",
-                  "textSize": "PARAGRAPH",
+                  "textSize": "0.875rem",
                   "index": 0,
                   "isVisible": true,
                   "label": "DishName",
@@ -91,15 +97,19 @@
                   "enableSort": true,
                   "id": "DishName",
                   "isDisabled": false,
-                  "verticalAlignment": "CENTER"
+                  "verticalAlignment": "CENTER",
+                  "borderRadius": "0px",
+                  "boxShadow": "none"
                 }
               },
               "delimiter": ",",
               "key": "dc0eoioaus",
               "derivedColumns": {},
+              "labelTextSize": "0.875rem",
               "rightColumn": 63,
-              "textSize": "PARAGRAPH",
+              "textSize": "0.875rem",
               "widgetId": "mg5sahcdjt",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
               "isVisibleFilters": false,
               "tableData": "{{cart_items.data}}",
               "isVisible": true,
@@ -112,6 +122,24 @@
               "isLoading": false,
               "horizontalAlignment": "LEFT",
               "isVisibleSearch": false,
+              "childStylesheet": {
+                "button": {
+                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "menuButton": {
+                  "menuColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                },
+                "iconButton": {
+                  "menuColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                  "boxShadow": "none"
+                }
+              },
+              "borderRadius": "0px",
               "isVisiblePagination": true,
               "verticalAlignment": "CENTER",
               "columnSizeMap": {
@@ -125,6 +153,7 @@
               }
             },
             {
+              "boxShadow": "none",
               "widgetName": "Button1",
               "onClick": "{{place_order.run(() => navigateTo('Orders','null'), () => {})}}",
               "buttonColor": "#2E3D49",
@@ -147,6 +176,7 @@
               "text": "Place Order",
               "isDisabled": false,
               "key": "kfnulkycrz",
+              "labelTextSize": "0.875rem",
               "rightColumn": 63,
               "isDefaultClickDisabled": true,
               "widgetId": "ndb5ihp2ob",
@@ -156,6 +186,7 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
+              "borderRadius": "0px",
               "buttonVariant": "PRIMARY"
             }
           ]
