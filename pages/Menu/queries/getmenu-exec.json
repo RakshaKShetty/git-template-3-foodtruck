@@ -20,7 +20,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {\n\t\tget_menu.run()\n\t\t\n\t}",
+      "body": "() => {\n  get_menu.run();\n}",
       "jsArguments": [],
       "isAsync": true
     },
@@ -34,7 +34,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "() => {\n\t\tget_menu.run()\n\t\t\n\t}"
+      "() => {\n  get_menu.run();\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
