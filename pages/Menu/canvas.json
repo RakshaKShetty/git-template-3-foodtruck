@@ -18,7 +18,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 59,
+          "version": 60,
           "minHeight": 550,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
@@ -1106,7 +1106,9 @@
                 "Type.selectedOptionValue"
               ],
               "timeoutInMillisecond": 10000
-            },
+            }
+          ],
+          [
             {
               "id": "Menu_total_cart_items",
               "name": "total_cart_items",
