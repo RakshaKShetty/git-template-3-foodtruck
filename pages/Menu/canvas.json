@@ -18,7 +18,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 60,
+          "version": 62,
           "minHeight": 550,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
@@ -1017,10 +1017,7 @@
                 }
               ],
               "privateWidgets": {
-                "Image5": true,
-                "Text4": true,
-                "Text5": true,
-                "IconButton1": true
+                "undefined": true
               },
               "key": "o90ql8cf7g",
               "labelTextSize": "0.875rem",
