@@ -23,6 +23,7 @@
       "queryParameters": [],
       "body": "{\n\t\"dish_id\" : {{appsmith.store.newDishId}},\n\t\"ingredient_ids\": {{MultiSelect1.selectedOptionValues}}\n}",
       "httpMethod": "POST",
+      "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
           "value": true

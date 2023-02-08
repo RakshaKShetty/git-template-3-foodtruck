@@ -6,8 +6,8 @@
     "pluginType": "JS",
     "actions": [],
     "archivedActions": [],
-    "body": "export default {\n\texec: () => {\n\t\tget_menu.run()\n\t\t\n\t}\n}",
-    "variables": []
+    "variables": [],
+    "userPermissions": []
   },
   "id": "Menu_getmenu",
   "deleted": false,

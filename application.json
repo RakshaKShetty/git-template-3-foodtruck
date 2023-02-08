@@ -38,6 +38,8 @@
   "unreadCommentThreads": 0,
   "color": "#BC6DB2",
   "icon": "laptop",
+  "unpublishedCustomJSLibs": [],
+  "publishedCustomJSLibs": [],
   "applicationVersion": 1,
   "isManualUpdate": false,
   "deleted": false

@@ -19,6 +19,7 @@
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "insert into Cart (username, DishId, IsOrdered) values (\"{{appsmith.user.username}}\", {{menu.selectedItem.Id}}, 0);",
+      "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
           "value": false

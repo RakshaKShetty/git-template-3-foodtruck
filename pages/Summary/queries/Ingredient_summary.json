@@ -18,6 +18,7 @@
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "SELECT Ingredients.Name as label, SUM(IsOrdered) as value from Cart join DishIngredient on Cart.DishId = DishIngredient.DishId join Ingredients on DishIngredient.IngredientId = Ingredients.Id where IsOrdered=1 GROUP by Ingredients.Id",
+      "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
           "value": true

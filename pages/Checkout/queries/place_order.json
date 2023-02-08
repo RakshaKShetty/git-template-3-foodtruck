@@ -17,6 +17,7 @@
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "Update Cart set IsOrdered = 1 where username = \"{{appsmith.user.username}}\" and IsOrdered = 0",
+      "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
           "value": false

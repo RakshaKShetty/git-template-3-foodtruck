@@ -21,6 +21,7 @@
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "() => {\n  get_menu.run();\n}",
+      "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": true
     },

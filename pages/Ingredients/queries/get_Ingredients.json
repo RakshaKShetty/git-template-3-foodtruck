@@ -18,6 +18,7 @@
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "SELECT * FROM Ingredients\n",
+      "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
           "value": true

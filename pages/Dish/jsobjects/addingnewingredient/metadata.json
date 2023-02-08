@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "addingnewingredient",
+    "pageId": "Dish",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Dish_addingnewingredient",
+  "deleted": false,
+  "gitSyncId": "626fcce8afffd379fcf0cca9_63e3457e5771142d67700a10"
+}

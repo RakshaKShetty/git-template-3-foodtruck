@@ -18,6 +18,7 @@
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "INSERT into DishDetails (DishId, PreferenceId, TypeId)\nVALUES({{appsmith.store.newDishId}}, {{Select1.selectedOptionValue}}, {{Select2.selectedOptionValue}} )\n",
+      "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
           "value": false

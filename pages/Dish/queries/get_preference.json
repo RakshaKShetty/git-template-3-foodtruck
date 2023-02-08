@@ -18,6 +18,7 @@
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "SELECT Id as value, Name as label FROM Preference\n",
+      "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
           "value": true

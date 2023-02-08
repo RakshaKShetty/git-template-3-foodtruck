@@ -21,6 +21,7 @@
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "() => {\n\t\t\n\t\trate_dish.run(() => { ordered_items.run() , closeModal('Modal1') }, () => {})\n\t\n\t}",
+      "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": true
     },

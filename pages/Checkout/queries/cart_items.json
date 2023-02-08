@@ -17,6 +17,7 @@
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "SELECT DISTINCT Cart.Id , Dish.Name as DishName FROM Cart \nJOIN Dish on Cart.DishId = Dish.Id\nJOIN DishDetails on Cart.DishId = DishDetails.DishId\nwhere username = \"{{appsmith.user.username}}\" and IsOrdered = 0 ",
+      "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
           "value": false
